@@ -71,8 +71,6 @@ _Demo link: TBD_
 
 ## Screenshots
 
-![Dashboard](docs/dashboard.png)
-![Ledger](docs/ledger.png)
 
 ## Status
 
