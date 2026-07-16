@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
+    "test": "python -m pytest backend",
     "test:e2e": "playwright test"
   },
   "devDependencies": {
