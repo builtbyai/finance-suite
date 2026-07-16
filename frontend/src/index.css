@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-line bg-inkSoft/80 p-4 shadow-sm;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-3 py-2 text-sm font-medium transition;
+  }
+  .btn-primary {
+    @apply bg-gold text-ink hover:bg-goldLight;
+  }
+  .btn-ghost {
+    @apply border border-line bg-transparent text-zinc-200 hover:border-gold/60;
+  }
+  .input {
+    @apply w-full rounded-lg border border-line bg-ink px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-500 focus:border-gold focus:outline-none;
+  }
+  .label {
+    @apply mb-1 block text-xs uppercase tracking-wide text-zinc-400;
+  }
+  .pill {
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium;
+  }
+  .table {
+    @apply w-full border-separate border-spacing-y-1 text-sm;
+  }
+  .table th {
+    @apply px-3 py-2 text-left text-xs font-semibold uppercase tracking-wide text-zinc-400;
+  }
+  .table td {
+    @apply border-y border-line/60 bg-inkSoft/60 px-3 py-2 first:rounded-l-md last:rounded-r-md;
+  }
+}
